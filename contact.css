@@ -1,0 +1,62 @@
+:root{
+    font-size: 10px;
+    --orange:#f15432
+}
+.contact-section{
+    padding-bottom: 3rem;
+} 
+.contact-head{
+    width: 40%;
+    margin-inline: auto;
+    text-align: center;
+    margin-block: 2rem;
+    margin-bottom: 3rem;
+}
+.contact-head h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.contact-head p{
+    font-size: 1.5rem;
+    color: rgba(128, 128, 128, 0.69);
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+}
+.contact-details-container{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 6rem;
+    padding-right: 10rem;
+    padding-top: 5rem;
+}
+.contact-wraper{
+    gap: 20px;
+    font-size: 1.6rem;
+}
+.contact-form{
+    width: 30%;
+}
+.form-row{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+.form-row input, .form-row textarea{
+    padding: 18px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+}
+.submit-btn{
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 1.3rem;
+    border-radius: 13px;
+    padding-inline: 40px;
+}

@@ -1,0 +1,218 @@
+:root{
+    font-size: 10px;
+    --orange:#f15432
+}
+.payment-section{
+    display: flex;
+    padding-bottom: 3rem;
+    justify-content: center;
+}
+.order-summary-container{
+    width: 38%;
+    padding: 2rem;
+}
+.order-summary-container>h3{
+    font-size: 2.2rem;
+    margin-block:20px;
+    text-align: center;
+    color: var(--orange);
+}
+.order-summary-container>h4{
+    font-size: 2rem;
+    margin-left: 23px;
+    margin-block: 10px;
+}
+.item-image{
+    width: 80px;
+}
+.item-image img{
+    width: 100%;
+}
+.order-wraper{
+    margin:5px;
+    width: 95%;
+    float: right;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.itm-det-wraper{
+    width: 100%;
+    padding:5px 0px 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.3rem;
+}
+.prc-wraper,.qty-del-wraper{
+    display: flex;
+    justify-content: space-between;
+}
+.qty-wraper span{
+    background-color: rgba(128, 128, 128, 0.319);
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+i{
+    cursor: pointer;
+}
+.gift-card-wraper label{    
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.gift-card-wraper{
+    margin-top: 10px;
+    width: 80%;
+    float: right;
+}
+.inp-btn-wraper input{
+    padding: 5px 10px ;
+    border: 2px solid rgba(128, 128, 128, 0.351);
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.096);
+    outline: none;
+    color: rgb(65, 64, 64);
+    width: 100%;
+    margin-top: 5px;
+}
+.inp-btn-wraper{
+    justify-content: space-between;
+    display: flex;
+}
+.apply-btn{
+    border: 2px solid var(--orange);
+    background-color: transparent;
+    font-size: 1.2rem;
+    color: var(--orange);
+    font-weight: 600;
+    padding: 7px 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+    height: fit-content;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.prc-summary-container{
+    float: right;
+    font-size: 1.3rem;
+    width: 80%;
+    font-weight: 600;
+    color: rgb(80, 80, 80);
+    padding-top: 2rem;
+}
+.summary-row{
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.232);
+    padding: 10px 0;
+}
+.summary-row:last-child{
+    border: none;
+}
+.summary-row:last-child .prc{
+    font-size: 1.5rem;
+    color: var(--orange);
+}
+.summary-row:nth-child(3) .prc{
+    color: rgb(10, 188, 10);
+}
+.payment-process-bar{
+    align-items: center;
+    color: #0000008d;
+    align-items: baseline;
+    font-size: 1.5rem;
+    margin-block: 20px;
+}
+.item{
+    font-size: 2rem ;
+    color: var(--orange);
+    font-weight: bold;
+}
+.right-mark{
+    cursor: auto;
+    position: relative;
+    margin-inline: 40px;
+}
+.right-mark::before{
+    content: "";
+    position: absolute;
+    width: 25px;
+    top: 40%;
+    right: 25px;
+    height: 2px;
+    background-color: rgb(79, 79, 206);
+}
+.right-mark::after{
+    content: "";
+    position: absolute;
+    width: 25px;
+    top: 40%;
+    left: 25px;
+    height: 2px;
+    background-color: rgb(79, 79, 206);
+}
+.payment-container{
+    padding: 2rem 5rem;
+}
+.payment-container h2{
+    font-size: 1.7rem;
+    margin-top: 25px;
+    color: rgb(62, 61, 61);
+}
+.pay-options-container{
+    padding: 2.5rem 0;
+    color: rgb(82, 81, 81);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+.pay-options-container .row{
+    align-items: baseline;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.with-icon-wraper{
+    justify-content: space-between;
+}
+.icon-wraper{
+    width: 25px;
+    margin: 2px;
+}
+.icon-wraper img{
+    width: 100%;
+    cursor: pointer;
+}
+.card-number-wraper{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.078);
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card-number-wraper input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+}
+
+.pay-btns-wraper{
+    justify-content: space-between;
+}
+.back-btn{
+    background-color: transparent;
+    border: 2px solid rgba(71, 71, 139, 0.66);
+    color: var(--orange);
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 13px 40px;
+    cursor: pointer;
+}
+.pay-btn{
+    font-size: 1.7rem;
+    color: white;
+    background-color: var(--orange);
+    padding: 13px 40px;
+}

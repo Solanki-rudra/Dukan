@@ -1,0 +1,126 @@
+:root{
+    font-size: 10px;
+    --orange:#f15432
+}
+.cart{
+    padding:4rem 12rem;
+}
+.cart > h1{
+    font-size: 3rem;
+    margin-left: 5rem;
+}
+.cart-img{
+    width: 150px;
+    height: 130px;
+}
+.cart-img img{
+    width: 100%;
+    height: 100%;
+}
+.cart-item-wraper{
+    gap: 15px;
+    background-color: rgba(128, 128, 128, 0.053);
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-block: 25px;
+}
+.cart-container{
+    padding: 3rem 0;
+}
+.cart-details{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 300px;
+}
+.cart-details h4 {
+    font-size: 1.7rem;
+}
+.cart-details-container{
+    display: flex;
+    justify-content: space-around;
+}
+.cart-details h3{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.item-quantity{
+    justify-content: space-between;
+    align-items: center;
+}
+.item-quantity span{
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+.prc-details{
+    justify-content: space-between;
+}
+.prc-details h1{
+    font-size: 2.5rem;
+    color: var(--orange);
+}
+.prc-del-wrap{
+    align-items: center;
+    font-size: 1.3rem;
+    color: var(--orange);
+    font-weight: 600;
+}
+.prc-del-wrap div{
+    border: 2px solid var(--orange);
+    border-radius: 5px;
+    padding: 6px;
+    cursor: pointer;
+}
+.del-icon{
+    margin-right: 5px;
+}
+.cart-summary{
+    padding: 5rem;
+    padding-bottom: 0;
+    width: 50%;
+}
+.coupon-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.coupon-container input{
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid var(--orange);
+    width: 75%;
+    outline: none;
+}
+.coupon-container h2,.cart-totals-container h2{
+    font-size: 2rem;
+}
+.apply-btn{
+    background-color: var(--orange);
+    font-size: 1.3rem;
+    color: white;
+}
+.cart-totals-container{
+    margin-top: 50px;
+}
+.cart-totals-container table{
+    padding-block: 20px;
+    font-size: 1.5rem;
+}
+th,td{
+    padding:10px 40px;
+    text-align: start;
+    padding-left: 0;
+}
+.change-btn{
+    color: var(--orange);
+    cursor: pointer;
+    padding-left: 100px;
+}
+.checkout-btn{
+    width: 80%;
+    padding-block: 15px;
+    background-color: var(--orange);
+    color: white;
+    font-size: 1.5rem;
+}

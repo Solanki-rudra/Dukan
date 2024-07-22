@@ -1,0 +1,62 @@
+:root{
+    --orange:#f15432
+}
+body{
+    height: 100vh;
+}
+.join-part{
+    width: 40%;
+    margin-inline: auto;
+    text-align: center;
+    margin-top: 8rem;
+}
+.join-part h1{
+    font-size: 4rem;
+}
+.join-part p{
+    font-size: 1.7rem;
+    margin-block: 4rem;
+    color: gray;
+}
+.mail-container{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.079);
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.mail-container input{
+    background-color: transparent;
+    padding-left: 15px;
+    color: gray;
+    font-size: 1.7rem;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.right-arrow{
+    background-color: var(--orange);
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+}
+.benifit-footer{
+    background-color: rgba(250, 235, 215, 0.348);
+    margin-block: 5rem;
+    display: flex;
+    padding: 7rem;
+    justify-content: center;
+    gap: 6rem;
+    width: 100%;
+}
+.benifit-wraper h2{
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+.benifit-wraper p{
+    font-size: 1.8rem;
+    color: gray;
+}

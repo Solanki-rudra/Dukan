@@ -1,0 +1,117 @@
+:root{
+    font-size: 10px;
+    --orange:#f15432
+}
+.product-detail-section{
+    padding: 3rem 10rem;
+    display: flex;
+    justify-content: center;
+}
+.product-img{
+    width: 50%;
+    margin:10px 20px;
+    background-color: rgba(128, 128, 128, 0.14);
+    border-radius: 10px;
+}
+.product-img img{
+    width: 100%;
+}
+.product-details-container{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+}
+.detail-wraper h1{
+    font-size: 3.5rem;
+}
+.detail-wraper h2{
+    font-size: 3rem;
+    margin-block: 20px;
+    color: var(--orange);
+}
+.detail-wraper h2>span{
+    text-decoration: line-through;
+    font-size: 2.3rem;
+    margin-right: 20px;
+    color: gray;
+}
+.detail-wraper label{
+    font-size: 1.5rem;
+}
+.detail-wraper progress{
+    width: 100%;
+    margin-block: 5px 20px;
+    height: 8px;
+}
+progress {
+    -webkit-appearance: none;
+}
+::-webkit-progress-bar {
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.192);
+}
+::-webkit-progress-value {
+    background-color: var(--orange);
+    border-radius: 5px;
+}
+.detail-wraper h4{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+.detail-wraper p{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+.detail-wraper span{
+    color: var(--orange);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.quantity-wraper{
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.423);
+    background-color: rgba(255, 68, 0, 0.022);
+    padding: 3rem 4rem;
+    font-size: 1.4rem;
+}
+.qty_upd_wraper{
+    display: flex;
+    padding: 8px 20px;
+    margin-block: 15px 5px;
+    justify-content: space-between;
+    border: 2px solid rgba(128, 128, 128, 0.355);
+    border-radius: 5px;
+}
+.qty_upd_wraper span{
+    color: var(--orange);
+    cursor: pointer;
+}
+.quantity-wraper h5{
+    color: gray;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+.buy-btn{
+    width: 100%;
+    background-color: var(--orange);
+    font-size: 1.3rem;
+    margin-block: 10px;
+    color: white;
+}
+.cart-wishlist-wraper{
+    gap: 10px;
+}
+.icon-btn{
+    border: 2px solid var(--orange);
+    border-radius: 5px;
+    padding: 6px 10px;
+    text-align: center;
+    color: var(--orange);
+    cursor: pointer;
+    width: 100%;
+}
+.icon-btn i{
+    margin-right: 8px;
+}
